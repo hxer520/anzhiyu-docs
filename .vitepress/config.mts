@@ -18,7 +18,7 @@ const ogUrl = "https://docs.anheyu.com";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "安知鱼主题官方文档",
+  title: "丰小团社群官方文档",
   description: "一个简洁、美丽的hexo主题",
   lang: "zh",
   head: [
@@ -48,17 +48,18 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: "作者博客", link: "https://blog.anheyu.com/" }],
-
+    // # nav是右上角链接
+    nav: [{ text: "作者博客", link: "https://fengtuanz.cn/" }],
+// 侧边栏
     sidebar: [
       {
-        text: "主题简介",
+        text: "团队介绍",
         link: "/intro",
       },
       {
         text: "快速上手",
         items: [
-          { text: "安装主题 💻", link: "/initall" },
+          { text: "博客 💻", link: "/blog/" },
           {
             text: "页面配置 📦",
             collapsed: false,
@@ -104,9 +105,9 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu" }],
 
     algolia: {
-      appId: "CITURDDECN",
-      apiKey: "e5c83518b67da17a254574c31759596b",
-      indexName: "anheyu",
+      appId: "VMBMV31LNY",
+      apiKey: "d37c4acf198ffa0f4f47cc152695510c",
+      indexName: "anzhi-doc",
       // searchParameters: {
       //   facetFilters: ["tags:en"],
       // },
@@ -161,7 +162,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: "https://github.com/anzhiyu-c/anzhiyu-docs/edit/main/:path",
+      pattern: "https://github.com/hxer520/anzhi-doc/edit/main/:path",
       text: "Edit this page on GitHub",
     },
   },

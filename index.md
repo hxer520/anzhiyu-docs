@@ -2,12 +2,12 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-title: 安知鱼主题官方文档
-titleTemplate: 一个简洁、美丽的静态hexo主题
+title: 丰小团社群官方文档
+titleTemplate: 一个专业、洞察消费者的私域小能手
 
 hero:
-  name: "安知鱼主题官方文档"
-  text: "一个简洁、美丽的静态hexo主题"
+  name: "丰小团社群官方文档"
+  text: "一个专业、洞察消费者的私域小能手"
   tagline: 生活明朗，万物可爱
   actions:
     - theme: brand
@@ -17,11 +17,11 @@ hero:
       text: 简介
       link: /intro
     - theme: alt
-      text: QQ 群
-      link: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=tYzr4BpaSI74uSRDmiPtzWmmqyibMFdY
+      text: 微信联系
+      link: https://cdn.jsdelivr.net/gh/hxer520/pic/img个人名片.png
     - theme: alt
       text: GitHub
-      link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+      link: https://github.com/hxer520
   image:
     src: /cover.webp
     alt: 安知鱼主题

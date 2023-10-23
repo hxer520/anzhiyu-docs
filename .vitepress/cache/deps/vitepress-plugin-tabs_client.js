@@ -1,13 +1,13 @@
 import {
   reactive,
   watch
-} from "./chunk-OX6HOUGK.js";
+} from "./chunk-M2GTWN2L.js";
 
-// node_modules/.pnpm/vitepress-plugin-tabs@0.3.0_vitepress@1.0.0-rc.4_vue@3.3.4/node_modules/vitepress-plugin-tabs/src/client/index.ts
-import PluginTabs from "/Users/anzhiyu/Project/anzhiyu-docs/node_modules/.pnpm/vitepress-plugin-tabs@0.3.0_vitepress@1.0.0-rc.4_vue@3.3.4/node_modules/vitepress-plugin-tabs/src/client/PluginTabs.vue";
-import PluginTabsTab from "/Users/anzhiyu/Project/anzhiyu-docs/node_modules/.pnpm/vitepress-plugin-tabs@0.3.0_vitepress@1.0.0-rc.4_vue@3.3.4/node_modules/vitepress-plugin-tabs/src/client/PluginTabsTab.vue";
+// node_modules/vitepress-plugin-tabs/src/client/index.ts
+import PluginTabs from "D:/OneDrive/应用/anzhiyu-doc/anzhiyu-docs/node_modules/vitepress-plugin-tabs/src/client/PluginTabs.vue";
+import PluginTabsTab from "D:/OneDrive/应用/anzhiyu-doc/anzhiyu-docs/node_modules/vitepress-plugin-tabs/src/client/PluginTabsTab.vue";
 
-// node_modules/.pnpm/vitepress-plugin-tabs@0.3.0_vitepress@1.0.0-rc.4_vue@3.3.4/node_modules/vitepress-plugin-tabs/src/client/useTabsSelectedState.ts
+// node_modules/vitepress-plugin-tabs/src/client/useTabsSelectedState.ts
 var injectionKey = "vitepress:tabSharedState";
 var ls = typeof localStorage !== "undefined" ? localStorage : null;
 var localStorageKey = "vitepress:tabsSharedState";
@@ -34,7 +34,7 @@ var provideTabsSharedState = (app) => {
   app.provide(injectionKey, state);
 };
 
-// node_modules/.pnpm/vitepress-plugin-tabs@0.3.0_vitepress@1.0.0-rc.4_vue@3.3.4/node_modules/vitepress-plugin-tabs/src/client/index.ts
+// node_modules/vitepress-plugin-tabs/src/client/index.ts
 var enhanceAppWithTabs = (app) => {
   provideTabsSharedState(app);
   app.component("PluginTabs", PluginTabs);
