@@ -18,7 +18,7 @@ const ogUrl = "https://docs.anheyu.com";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "安知鱼主题官方文档",
+  title: "丰小团社群官方文档",
   description: "一个简洁、美丽的hexo主题",
   lang: "zh",
   head: [
@@ -48,20 +48,22 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [{ text: "作者博客", link: "https://blog.anheyu.com/" }],
-
+    // # nav是右上角链接
+    nav: [{ text: "作者博客", link: "https://fengtuanz.cn/" }],
+// 侧边栏
     sidebar: [
       {
-        text: "主题简介",
+        text: "团队介绍💻",
         link: "/intro",
       },
       {
         text: "快速上手",
         items: [
-          { text: "安装主题 💻", link: "/initall" },
+          { text: "👀黄老师碎碎念👀 ", link: "/blog/talk" },
           {
             text: "页面配置 📦",
-            collapsed: false,
+            collapsed: true,   
+            // 是否折叠选项 collapsed
             items: [
               { text: "front-matter的基本认识", link: "/page/front-matter" },
               { text: "标签页配置", link: "/page/tags" },
@@ -104,9 +106,9 @@ export default defineConfig({
     socialLinks: [{ icon: "github", link: "https://github.com/anzhiyu-c/hexo-theme-anzhiyu" }],
 
     algolia: {
-      appId: "CITURDDECN",
-      apiKey: "e5c83518b67da17a254574c31759596b",
-      indexName: "anheyu",
+      appId: "VMBMV31LNY",
+      apiKey: "d37c4acf198ffa0f4f47cc152695510c",
+      indexName: "anzhi-doc",
       // searchParameters: {
       //   facetFilters: ["tags:en"],
       // },
@@ -157,13 +159,14 @@ export default defineConfig({
 
     footer: {
       message: `Released under the MIT License. (${commitRef})`,
-      copyright: "Copyright © 2023 AnZhiYu",
+      copyright: "Copyright © 2023 FengtuanZ",
     },
 
     editLink: {
-      pattern: "https://github.com/anzhiyu-c/anzhiyu-docs/edit/main/:path",
-      text: "Edit this page on GitHub",
+      pattern: "https://github.com/hxer520/anzhiyu-docs/edit/main/:path",
+      text: "编辑此页内容",
     },
+    
   },
   lastUpdated: true,
   markdown: {

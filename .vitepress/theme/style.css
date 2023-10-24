@@ -89,3 +89,13 @@
   --docsearch-primary-color: var(--vp-c-brand) !important;
 }
 
+/* .box{
+  text-align: center;
+} */
+/* 文字居中 */
+/* 绝对定位-居中    教程：https://qc2168.github.io/record/interview/CSS/%E5%85%B3%E4%BA%8E%E5%85%83%E7%B4%A0%E5%B1%85%E4%B8%AD.html*/
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
